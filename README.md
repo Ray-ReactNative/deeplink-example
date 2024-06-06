@@ -9,37 +9,44 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 ```bash
 # using npm
 npm i
-
+```
 ## Step 2: Start the Metro Server
 ```bash
 # using npm
 npm start
+```
 
 ## Step 3: Start your Application
-### For Android
+#### For Android
 
 ```bash
 # using npm
 npm run android
+```
 
-### For iOS
+#### For iOS
 
 ```bash
 # using npm
 npm run ios
+```
 
 ## Testing Deep Link:
+#### For Android
 ```bash
 # using npm
 adb shell am start -W -a android.intent.action.VIEW -d "myapp://home"
+```
 
-### For iOS
-
+#### For iOS
 ```bash
 # using npm
 xcrun simctl openurl booted "myapp://home"
+```
 
-## Testing Deep Links with Params
+## Testing Deep Links with Params:
+#### For iOS
 ```bash
 # using npm
 xcrun simctl openurl booted "myapp://details/1"
+```
